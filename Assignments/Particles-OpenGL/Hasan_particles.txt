@@ -1,0 +1,15 @@
+ PROGRAM:  particle.txt
+ AUTHOR:   Hasan Skaiky
+ DATE:     March 26 2017 
+ PURPOSE: explanation of particles.c
+
+
+
+In this program particles i started by creating  50 particles that started at a fixed y-axis of 100 , and random x-axis , which will be falling from 100 to -100 . These particles has random colors  and random speed by intialization. These partices has a size of 1 and a life span of 1 . They are set up in a loop that keep initializing after falling to the bottom of the window . It was made by a pattern looks like a rain or snow fall but never stick to the ground. By hitting the space bar on the keyboard  , more particles will be creating so it will look like it is raining or snowing heavy. By clicking the 's' or 'S' key on the keyboard , particle_destroy method will be called which will destroy all the particles and everything will stop untill you hit the space bar again so the particles will intialize again and fall . To free memory , i can click 'r' or 'R' key on the keyboard which will call the particle_remove method and will start removing particles one by one , untill everything is over. which will show it will be raining hard then eventually starts to stop . 
+
+
+For timing the particles . When i start with 500 it took arround 10 sec to create my animation and  10 sec to move from y(100 to -100).
+When i increased it to 2000 , it took arround 20 sec to create the animation and another 20 sec to move from y(100 to -100 ). 
+At 10000 i was not able to create my animation and my vmware crashed .My machine was not able to hold that much memory . 
+
+This is a very cool project . It was very challenging . It took me arround 32 hrs to complete the whole project . And i will continue adapting it in summer . 
