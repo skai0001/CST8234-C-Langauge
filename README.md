@@ -1,1 +1,1 @@
-# CST8234-C-Langauge
+# CST8234-C-Language
